@@ -10,11 +10,11 @@ body{
 }
 
 nav{
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
 }
 
 footer{
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -55,6 +55,8 @@ footer .social>a:hover{
     color: var(--secondary-color);
 }
 
+
+
 code[class*="language-"],
         pre[class*="language-"] {
         white-space: pre-wrap;
@@ -68,10 +70,18 @@ code[class*="language-"],
         font-style: normal;
 }
 
+.Fizz{
+    color: darkgreen;
+}
 
+.Buzz {
+    color: darkblue;
+}
 
-
-
+.FizzBuzz{
+    color: red;
+    font-weight: bold;
+}
 
     main>.container {
     padding: 60px 15px 0;
